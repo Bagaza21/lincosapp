@@ -1,6 +1,9 @@
 import 'package:lincoln/state_util.dart';
 import 'package:lincoln/core.dart';
 import 'package:flutter/material.dart';
+import 'page1.dart';
+import 'page2.dart';
+import 'page3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: Page1(title: 'Flutter Demo Home Page'),
     );
   }
 }
